@@ -1,0 +1,19 @@
+baseURL = 'https://arijan.dev/'
+locale = 'en-us'
+title = "Arijan's blog"
+theme = 'hugo-bearblog'
+
+[[menus.main]]
+  name = "Home"
+  pageRef = "/"
+  weight = 1
+
+[[menus.main]]
+  name = "Posts"
+  pageRef = "/posts"
+  weight = 2
+
+[[menus.main]]
+  name = "Contact"
+  pageRef = "/contact"
+  weight = 3

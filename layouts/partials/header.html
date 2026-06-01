@@ -1,0 +1,4 @@
+<nav>{{- partial "nav.html" . -}}</nav>
+<a href="{{ "" | relURL }}" class="title">
+  <h2>{{ if .IsPage }}{{ .Title }}{{ else }}{{ .Site.Title }}{{ end }}</h2>
+</a>
